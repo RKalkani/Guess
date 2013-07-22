@@ -1,4 +1,0 @@
-Guess
-=====
-
-Number Guessing Game
