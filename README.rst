@@ -3,7 +3,7 @@ Guess
 
 Number Guessing Game
 
-Importing **CrackIT** as an `eclipse <http://www.eclipse.org/>`_ project
+Importing **Guess** as an `eclipse <http://www.eclipse.org/>`_ project
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
  
