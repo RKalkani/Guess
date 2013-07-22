@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:background="#ffffff" >
+
+    <TextView
+        android:id="@+id/tv_won_dialog_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="10dp"
+        android:text="@string/congratulation"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#0099cc" />
+
+    <CheckedTextView
+        android:id="@+id/detail_dialog_divider1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tv_won_dialog_title"
+        android:background="#0099cc" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true" >
+
+        <Button
+            android:id="@+id/btn_won_dialog_new"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/img_dialog_button"
+            android:text="@string/new_game" />
+
+        <CheckedTextView
+            android:id="@+id/detail_dialog_divider2"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#d8d8d8" />
+
+        <Button
+            android:id="@+id/btn_won_dialog_exit"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/img_dialog_button"
+            android:text="@string/exit" />
+    </LinearLayout>
+
+    <CheckedTextView
+        android:id="@+id/detail_dialog_divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_above="@+id/linearLayout1"
+        android:layout_alignParentLeft="true"
+        android:background="#d8d8d8" />
+
+    <TextView
+        android:id="@+id/tv_won_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_won_dialog_title"
+        android:layout_below="@+id/detail_dialog_divider1"
+        android:layout_marginTop="16dp"
+        android:text="@string/you_won_"
+        android:textSize="16sp"
+        android:textColor="#000000"
+         />
+
+</RelativeLayout>
