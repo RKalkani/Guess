@@ -1,7 +1,7 @@
 Guess
 =====
 
-Number Guessing Game
+Number Guessing Game. Score based on number of try made to get lucky guess.
 
 Importing **Guess** as an `eclipse <http://www.eclipse.org/>`_ project
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
